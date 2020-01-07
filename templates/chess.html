@@ -1,11 +1,12 @@
 {% extends "poem_titles.html" %}
-{% block poem %}
+{% block poem_header %}
     <link rel="stylesheet" type="text/css" href="../static/css/style_chess.css">
-
     <header>
         <h1 id="chess">A Game of Chess</h1>
     </header>
-    <a name="top"></a>
+{% endblock %}
+<a name="top"></a>
+{% block poem %}
     <div id="poem">
         <p>
             Two brains at work<br>
@@ -45,7 +46,9 @@
         </p>
         <p>
             <!--<a href="#top" id="top">Back to Top</a>-->
-            <a href="#" id="top" onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()">Back to top</a>
+            <a href="#" id="top"
+               onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()">Back to
+                top</a>
         </p>
     </div>
 

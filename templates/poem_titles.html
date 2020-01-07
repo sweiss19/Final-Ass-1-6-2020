@@ -3,8 +3,12 @@
 
     <link href="../static/css/style_poem.css" rel="stylesheet" type="text/css">
 
-    <nav id="nav">
+    {% block poem_header %}
+    {% endblock %}
+
+    <nav id="nav_bottom">
         <ul id="nav_list">
+        <li><button id="chess"><a href="{{ url_for('index') }}">Home</a></button></li>
         <li><button id="nave-seal"><a href="navy_seal.html">Navy Seal</a></button></li>
         <li><button id="a-journey"><a href="a_journey.html">A Journey</a></button></li>
         <li><button id="cold-and-grey"><a href="cold_and_grey.html">I Am Cold and Grey</a></button></li>
