@@ -1,0 +1,84 @@
+body {
+    background: black;
+}
+
+h3, h1, p {
+    color: white;
+    font-family: "Comic Sans MS", arial, serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h3{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    max-width: 500px;
+}
+
+p {
+    font-size: 20px;
+    max-width: 1000px;
+}
+
+button {
+    border-radius: 15px;
+    color: white;
+    width: 175px;
+}
+
+.link {
+    color: black;
+    font-family: "Comic Sans MS", arial, serif;
+    font-size: 20px;
+}
+
+#footer {
+    font-size: 13px;
+}
+
+/* Split the screen in half. */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side. */
+.left {
+    left: 0;
+    background-color: black;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+/* If you want the content centered horizontally and vertically. */
+.centered {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* Style the image inside the centered container, if needed. */
+.centered img {
+    width: auto;
+    length: 700px;
+}

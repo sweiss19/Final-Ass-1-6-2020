@@ -1,0 +1,77 @@
+body{
+	background-image: url("../images/HeaderPoemFace.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+	align-content:stretch;
+}
+
+h1, h3, #footer{
+    font-family: "Comic Sans MS", arial, serif;
+    text-align: center;
+}
+
+#main{
+    color: #ff3d4a;
+    align-items: center;
+    align-content: center;
+    alignment: center;
+}
+
+button{
+	border-radius: 15px;
+    color: white;
+}
+
+#footer {
+    font-size: 13px;
+}
+
+h1, p, #top{
+font-family: "Comic Sans MS", arial, serif;
+text-align: center;
+}
+
+h1 {
+padding: 5px;
+background: black;
+color: white;
+font-weight: bold;
+font-size: 50px;
+position: fixed;
+width: 100%;
+margin-top: -100px;
+z-index: 1;
+}
+
+#poem {
+color: black;
+font-size: 58px;
+margin: 82px;
+z-index: 10;
+font-weight: bold;
+}
+
+#top{
+font-size: 20px;
+color: black;
+align-content: center;
+align-items: center;
+}
+
+#footer {
+font-size: 13px;
+}
+
+#nav_list {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
