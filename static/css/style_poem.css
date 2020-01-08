@@ -24,7 +24,8 @@ h1, h3, #footer{
 
 button{
 	border-radius: 15px;
-    color: white;
+    background-color: black;
+    width: 155px;
 }
 
 #footer {
@@ -74,4 +75,8 @@ font-size: 13px;
 
 nav li {
     display: inline;
+}
+
+a:link, a:visited{
+    color: red;
 }

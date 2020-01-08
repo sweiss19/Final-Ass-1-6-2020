@@ -1,0 +1,41 @@
+{% extends "poem_titles.html" %}
+{% block poem_header %}
+    <link rel="stylesheet" type="text/css" href="../static/css/style_grey.css">
+    <header>
+        <h1 id="cold-and-grey">Cold and Grey</h1>
+    </header>
+{% endblock %}
+<a name="top"></a>
+{% block poem %}
+    <div id="poem">
+        <p>
+            I am cold and grey<br>
+            I wonder if I’ll ever change<br>
+            I hear the bundle of dust moving around<br>
+            I see a rusty chest cracking<br>
+            I want to stay the way I am now<br>
+            I am cold and grey.<br>
+            <br>
+            I pretend to be an old, abandoned chest<br>
+            I feel some grey fuzzy mice tickling me<br>
+            I touch the silence of the darkness<br>
+            I worry that a spark will light up the room<br>
+            I cry about the day that I will be discovered<br>
+            I am cold and grey.<br>
+            <br>
+            I understand that I’m not the usual<br>
+            I say, let the spookiness spread its wings even more<br>
+            I dream about a monster coming to greet me<br>
+            I try to make the best out of my life<br>
+            I hope to stay in my place as long as I live<br>
+            I am cold and grey.<br>
+        </p>
+        <p>
+            <!--<a href="#top" id="top">Back to Top</a>-->
+            <a href="#" id="top"
+               onclick="document.body.scrollTop=0;document.documentElement.scrollTop=0;event.preventDefault()">Back to
+                top</a>
+        </p>
+    </div>
+
+{% endblock %}
